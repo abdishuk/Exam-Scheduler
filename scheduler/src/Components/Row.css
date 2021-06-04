@@ -1,0 +1,28 @@
+.remove {
+  border: 1px solid;
+  color: #fff;
+  background-color: #c0392b;
+}
+.add {
+  margin-left: 10px;
+}
+.buttons {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+.buttons .add {
+  display: block;
+  margin-left: 50px;
+}
+
+.enter {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 20px;
+}
+.field {
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #dff9fb;
+}
