@@ -6,11 +6,8 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <BrowserRouter>
-      <div class="container">
-        <div className="App">
-          <Route path="/" exact component={TableComponent}></Route>
-        </div>
-        <Footer />
+      <div className="App">
+        <Route path="/" exact component={TableComponent}></Route>
       </div>
     </BrowserRouter>
   );
