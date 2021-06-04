@@ -6,10 +6,12 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
-        <Route path="/" exact component={TableComponent}></Route>
+      <div class="container">
+        <div className="App">
+          <Route path="/" exact component={TableComponent}></Route>
+        </div>
+        <Footer />
       </div>
-      <Footer />
     </BrowserRouter>
   );
 }
