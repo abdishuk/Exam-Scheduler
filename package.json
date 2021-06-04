@@ -4,10 +4,6 @@
   "type": "module",
   "description": "",
   "main": "index.js",
-  "engines": {
-    "node": "15.0.1",
-    "npm": "6.14.8"
-  },
   "scripts": {
     "client": "npm start --prefix scheduler",
     "server": "nodemon backend/server",
