@@ -1,9 +1,17 @@
 import React from "react";
-
-const Footer = () => (
-  <div className="footer">
-    <p>Designed by Abdishukri Sheikh &copy; Abdishukri Sheikh 2021 </p>
-  </div>
-);
+import { Container, Row, Col } from "react-bootstrap";
+const Footer = () => {
+  return (
+    <footer>
+      <Container>
+        <Row>
+          <Col className="text-center py-3">
+            Copyright &copy; Abdishukri Sheikh,2021
+          </Col>
+        </Row>
+      </Container>
+    </footer>
+  );
+};
 
 export default Footer;
